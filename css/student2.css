@@ -1,0 +1,71 @@
+body {
+   margin: 5px;
+   padding: 5px;
+   line-height: 1.15;
+}
+
+h1, h2, h3 {
+   font-weight: bold;
+   margin: 15px 0px;
+}
+
+h1 {
+   font-size: x-large;
+}
+
+ul li {
+   margin-left: 25px;
+   list-style-type: upper-roman;
+}
+
+nav li {
+   background-color: lightblue; /* Changed to a lighter blue matching the buttons in the screenshot */
+   border: 2px solid black;
+   border-radius: 25px;
+   display: inline-block;
+   padding: 10px;
+   width: 18%;
+   margin: 15px 15px 0px 0px;
+   text-align: center;
+}
+
+main img {
+   width: 24%;
+   box-sizing: border-box;
+   padding: 15px;
+   border: 6px dashed green;
+   margin: 0;
+}
+
+header img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+p {
+   line-height: 2;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: darkslategray;
+   background-color: bisque;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+/* New CSS to replicate the navigation buttons and the coffee cup background */
+nav {
+   margin: 0;
+   padding: 0;
+   text-align: center; /* Center align the navigation buttons */
+}
+
+header {
+   background-color: #7b1414; /* Dark reddish background for the header */
+   background-image: url('path-to-your-coffee-cup-image'); /* Replace with your image path */
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 300px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
